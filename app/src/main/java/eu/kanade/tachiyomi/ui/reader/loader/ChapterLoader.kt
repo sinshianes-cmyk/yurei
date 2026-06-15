@@ -3,12 +3,14 @@ package eu.kanade.tachiyomi.ui.reader.loader
 import android.content.Context
 import co.touchlab.kermit.Logger
 import eu.kanade.tachiyomi.data.download.DownloadManager
+import eu.kanade.tachiyomi.data.database.models.readingModeType
 import eu.kanade.tachiyomi.data.download.DownloadProvider
 import eu.kanade.tachiyomi.domain.manga.models.Manga
 import eu.kanade.tachiyomi.source.LocalSource
 import eu.kanade.tachiyomi.source.Source
 import eu.kanade.tachiyomi.source.online.HttpSource
 import eu.kanade.tachiyomi.ui.reader.model.ReaderChapter
+import eu.kanade.tachiyomi.ui.reader.settings.ReadingModeType
 import eu.kanade.tachiyomi.util.system.withIOContext
 import yokai.core.archive.util.archiveReader
 import yokai.core.archive.util.epubReader
@@ -78,6 +80,7 @@ class ChapterLoader(
         val isDownloaded = downloadManager.isChapterDownloaded(dbChapter, manga, skipCache = true)
         return when {
             isDownloaded -> DownloadPageLoader(chapter, manga, source, downloadManager, downloadProvider)
+            source is HttpSource && ReadingModeType.isTextType(manga.readingModeType) -> TextPageLoader(chapter, source)
             source is HttpSource -> HttpPageLoader(chapter, source)
             source is LocalSource -> source.getFormat(chapter.chapter).let { format ->
                 when (format) {

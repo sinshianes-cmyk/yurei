@@ -107,6 +107,7 @@ import eu.kanade.tachiyomi.ui.reader.viewer.pager.L2RPagerViewer
 import eu.kanade.tachiyomi.ui.reader.viewer.pager.PagerViewer
 import eu.kanade.tachiyomi.ui.reader.viewer.pager.R2LPagerViewer
 import eu.kanade.tachiyomi.ui.reader.viewer.pager.VerticalPagerViewer
+import eu.kanade.tachiyomi.ui.reader.viewer.text.TextViewer
 import eu.kanade.tachiyomi.ui.reader.viewer.webtoon.WebtoonViewer
 import eu.kanade.tachiyomi.ui.security.SecureActivityDelegate
 import eu.kanade.tachiyomi.ui.webview.WebViewActivity
@@ -1226,6 +1227,7 @@ class ReaderActivity : BaseActivity<ReaderActivityBinding>() {
             ReadingModeType.VERTICAL.flagValue -> VerticalPagerViewer(this)
             ReadingModeType.LONG_STRIP.flagValue -> WebtoonViewer(this)
             ReadingModeType.CONTINUOUS_VERTICAL.flagValue -> WebtoonViewer(this, hasMargins = true)
+            ReadingModeType.TEXT.flagValue -> TextViewer(this)
             else -> R2LPagerViewer(this)
         }
 

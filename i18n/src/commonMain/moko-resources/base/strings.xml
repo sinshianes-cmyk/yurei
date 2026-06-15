@@ -455,6 +455,7 @@
     <string name="right_to_left_viewer">Right to left</string>
     <string name="vertical_viewer">Vertical</string>
     <string name="continuous_vertical">Continuous vertical</string>
+    <string name="text_viewer">Text (Novel)</string>
     <string name="paged">Paged</string>
     <string name="scale_type">Scale type</string>
     <string name="tap_zones">Tap zones</string>
