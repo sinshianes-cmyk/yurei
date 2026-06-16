@@ -1,45 +1,45 @@
 <div align="center">
 
-<a href="https://github.com/null2264/yokai">
-    <img src="./.github/readme-images/app-icon.webp" alt="Yokai logo" height="200px" width="200px" />
+<a href="https://github.com/NotBlankyu/yurei">
+    <img src="./.github/readme-images/app-icon.webp" alt="Yūrei logo" height="200px" width="200px" />
 </a>
 
-# Yōkai
+# Yūrei
 
 </div>
 
 <div align="center">
 
-A free and open source manga reader
+A free and open source manga and webnovel reader
 
-[![Discord: Mihon](https://img.shields.io/discord/1195734228319617024.svg?label=&labelColor=6A7EC2&color=7389D8&logo=discord&logoColor=FFFFFF)](https://discord.gg/mihon)
-[![Mirror: GitLab](https://img.shields.io/badge/mirror-GitLab-orange.svg?labelColor=27303D)](https://gitlab.com/null2264/yokai)
-[![Mirror: git.aap](https://img.shields.io/badge/mirror-git.aap-red.svg?labelColor=27303D)](https://git.aap.my.id/null2264/yokai)
-
-[![CI](https://github.com/null2264/yokai/actions/workflows/build_push.yml/badge.svg?labelColor=27303D)](https://github.com/null2264/yokai/actions/workflows/build_push.yml)
-[![License: Apache-2.0](https://img.shields.io/github/license/null2264/yokai?labelColor=27303D&color=0877d2)](/LICENSE)
-[![Translation status](https://img.shields.io/weblate/progress/yokai?labelColor=27303D&color=946300)](https://hosted.weblate.org/engage/yokai/)
+[![CI](https://github.com/NotBlankyu/yurei/actions/workflows/build_push.yml/badge.svg?labelColor=27303D)](https://github.com/NotBlankyu/yurei/actions/workflows/build_push.yml)
+[![License: Apache-2.0](https://img.shields.io/github/license/NotBlankyu/yurei?labelColor=27303D&color=0877d2)](/LICENSE)
 
 <img src="./.github/readme-images/screens.gif" alt="Yokai screenshots" />
 
 ## Download
 
-[![Yokai Stable](https://img.shields.io/github/v/release/null2264/yokai?maxAge=3600&label=Stable&labelColor=06599d&color=043b69&filter=v*)](https://github.com/null2264/yokai/releases)
-[![Yokai Nightly](https://img.shields.io/github/v/release/null2264/yokai-nightly?maxAge=3600&label=Nightly&labelColor=2c2c47&color=1c1c39&filter=r*)](https://github.com/null2264/yokai-nightly/releases)
+[![Yūrei Stable](https://img.shields.io/github/v/release/NotBlankyu/yurei?maxAge=3600&label=Stable&labelColor=06599d&color=043b69&filter=v*)](https://github.com/NotBlankyu/yurei/releases)
+[![Yūrei Nightly](https://img.shields.io/github/v/release/NotBlankyu/yurei?maxAge=3600&label=Nightly&labelColor=2c2c47&color=1c1c39&filter=r*)](https://github.com/NotBlankyu/yurei/releases)
 
 *Requires Android 6.0 or higher.*
 
 ## About Fork
 
-This fork was created for personal usage, the name Yōkai is chosen in theme of my "paranormal" fork collection, all of them are made for personal purposes, to explore the language used to made them, explore new tech, or simply want to add my own twists that may not accepted by upstream as a PR.
+Yūrei is a personal fork of [Yōkai](https://github.com/null2264/yokai) that adds reading of webnovels alongside manga.
+Updates will be slow
 
-Updates are sporadic, sometime fast, sometime slow.
-
-As of the time of writing, this fork is currently focusing on migrating to a much more modern infrastructure, some features may be added, but most changes are happening behind the scene.
 
 ## Features
 
 <div align="left">
+
+<details open="">
+    <summary><h3>From Yūrei</h3></summary>
+
+* Text reader mode that renders chapter text instead of images.
+
+</details>
 
 <details open="">
     <summary><h3>From Yōkai</h3></summary>
@@ -105,7 +105,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 <details><summary>Issues</summary>
 
-**Before reporting a new issue, take a look at the [FAQ](https://mihon.app/docs/faq/general), the [changelog](https://github.com/null2264/yokai/releases) and the already opened [issues](https://github.com/null2264/yokai/issues).**
+**Before reporting a new issue, take a look at the [FAQ](https://mihon.app/docs/faq/general), the [changelog](https://github.com/notblankyu/yurei/releases) and the already opened [issues](https://github.com/notblankyu/yurei/issues).**
 
 </details>
 
@@ -138,8 +138,8 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Thank you to all the people who have contributed!
 
-<a href="https://github.com/null2264/yokai/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=null2264/yokai" alt="Yokai app contributors" title="Yokai app contributors" width="600"/>
+<a href="https://github.com/notblankyu/yurei/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=notblankyu/yurei" alt="Yūrei app contributors" title="Yūrei app contributors" width="600"/>
 </a>
 
 ### Disclaimer
