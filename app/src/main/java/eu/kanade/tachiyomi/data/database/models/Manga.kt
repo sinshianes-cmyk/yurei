@@ -93,6 +93,7 @@ fun Manga.seriesType(useOriginalTags: Boolean = false, customTags: String? = nul
  */
 fun Manga.defaultReaderType(): Int {
     val sourceName = Injekt.get<SourceManager>().getOrStub(source).name
+    if (isTextSource(sourceName)) return ReadingModeType.TEXT.flagValue
     val currentTags = genre?.split(",")?.map { it.trim().lowercase(Locale.US) } ?: emptyList()
     return if (currentTags.any {
                 tag -> isManhwaTag(tag) || tag.contains("webtoon")

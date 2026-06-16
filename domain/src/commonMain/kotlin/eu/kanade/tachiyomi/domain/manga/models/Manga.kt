@@ -158,6 +158,10 @@ interface Manga : SManga {
             sourceName.contains("toonily", true)
     }
 
+    fun isTextSource(sourceName: String): Boolean {
+        return sourceName.contains("novel", true)
+    }
+
     fun isComicSource(sourceName: String): Boolean {
         return sourceName.contains("gunnerkrigg", true) ||
             sourceName.contains("dilbert", true) ||
