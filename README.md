@@ -10,7 +10,7 @@
 
 <div align="center">
 
-A free and open source manga and webnovel reader
+A free and open source manga and webnovel reader (This Modification made for personal use especially for miui/hyperos users
 
 [![CI](https://github.com/NotBlankyu/yurei/actions/workflows/build_push.yml/badge.svg?labelColor=27303D)](https://github.com/NotBlankyu/yurei/actions/workflows/build_push.yml)
 [![License: Apache-2.0](https://img.shields.io/github/license/NotBlankyu/yurei?labelColor=27303D&color=0877d2)](/LICENSE)
@@ -35,9 +35,11 @@ Updates will be slow
 <div align="left">
 
 <details open="">
-    <summary><h3>From Yūrei</h3></summary>
+    <summary><h3>In this Fork</h3></summary>
 
-* Text reader mode that renders chapter text instead of images.
+All from Yūrei + Removed Miui Must be disabled to update extensions
+All Extensions are trusted by default
+Added Related card slider(recommendation system ) from Yokai Y2K
 
 </details>
 
